@@ -28,6 +28,7 @@ public class MainApp {
          System.out.println("Email = "+user.getEmail());
          System.out.println();
       }
+      System.out.println(userService.findUserByCar("DMW", 48745));
 
       context.close();
    }
